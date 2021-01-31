@@ -1,5 +1,5 @@
 {
-  "name": "aws-s3-service",
+  "name": "aws-s3-angular-service",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -18,6 +18,7 @@
     "@angular/platform-browser": "~11.1.0",
     "@angular/platform-browser-dynamic": "~11.1.0",
     "@angular/router": "~11.1.0",
+    "@aws-sdk/client-s3": "^3.4.1",
     "rxjs": "~6.6.0",
     "tslib": "^2.0.0",
     "zone.js": "~0.11.3"
@@ -39,5 +40,20 @@
     "ts-node": "~8.3.0",
     "tslint": "~6.1.0",
     "typescript": "~4.1.2"
+  },
+  "keywords": [
+    "typescript",
+    "angular",
+    "utility",
+    "service"
+  ],
+  "author": "Thitiwut Somsa <kizzaraiva@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/viruskizz/dynamodb-utility/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/viruskizz/dynamodb-utility"
   }
 }
